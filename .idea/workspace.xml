@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98111d8a-707a-4f20-9802-c21e40255f1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/projectPizzaPW.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="98111d8a-707a-4f20-9802-c21e40255f1a" name="Changes" comment="add allure">
+      <change afterPath="$PROJECT_DIR$/pages/checkout_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +31,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for PyTestPizza.test_add_pizza_to_cart.executor": "Run",
+    "Python tests.Python tests for allure_test.test_order_pizza.executor": "Debug",
     "Python tests.Python tests in PyTestPizza.py.executor": "Debug",
+    "Python tests.Python tests in test_order.py.executor": "Run",
     "Python.playwright_pizza.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.playwright_pizza">
+  <component name="RunManager" selected="Python tests.Python tests in test_order.py">
     <configuration name="playwright_pizza" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projectPizzaPW" />
       <option name="ENV_FILES" value="" />
@@ -77,6 +77,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for allure_test.test_order_pizza" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projectPizzaPW" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/allure-results" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;allure_test.test_order_pizza&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in PyTestPizza.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="projectPizzaPW" />
       <option name="ENV_FILES" value="" />
@@ -92,8 +107,25 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_order.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projectPizzaPW" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_order.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_order.py" />
+        <item itemvalue="Python tests.Python tests for allure_test.test_order_pizza" />
         <item itemvalue="Python.playwright_pizza" />
         <item itemvalue="Python tests.Python tests in PyTestPizza.py" />
         <item itemvalue="Python tests.Python tests for PyTestPizza.test_add_pizza_to_cart" />
@@ -116,6 +148,19 @@
       <option name="presentableId" value="Default" />
       <updated>1748944563974</updated>
     </task>
+    <task id="LOCAL-00001" summary="add allure">
+      <option name="closed" value="true" />
+      <created>1748954997283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748954997283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add allure" />
   </component>
 </project>
