@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98111d8a-707a-4f20-9802-c21e40255f1a" name="Changes" comment="add allure">
-      <change afterPath="$PROJECT_DIR$/pages/checkout_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_apply_coupon.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2xzcuLdtZzGDsS0x7BZQngeQxud" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,6 +29,7 @@
   "keyToString": {
     "Python tests.Python tests for PyTestPizza.test_add_pizza_to_cart.executor": "Run",
     "Python tests.Python tests for allure_test.test_order_pizza.executor": "Debug",
+    "Python tests.Python tests for test_apply_coupon.test_apply_coupon_discount.executor": "Run",
     "Python tests.Python tests in PyTestPizza.py.executor": "Debug",
     "Python tests.Python tests in test_order.py.executor": "Run",
     "Python.playwright_pizza.executor": "Run",
@@ -39,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_order.py">
+  <component name="RunManager" selected="Python tests.Python tests for test_apply_coupon.test_apply_coupon_discount">
     <configuration name="playwright_pizza" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projectPizzaPW" />
       <option name="ENV_FILES" value="" />
@@ -62,21 +60,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for PyTestPizza.test_add_pizza_to_cart" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="projectPizzaPW" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PyTestPizza.test_add_pizza_to_cart&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for allure_test.test_order_pizza" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="projectPizzaPW" />
       <option name="ENV_FILES" value="" />
@@ -89,6 +72,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;allure_test.test_order_pizza&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_apply_coupon.test_apply_coupon_discount" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projectPizzaPW" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_apply_coupon.test_apply_coupon_discount&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -124,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_apply_coupon.test_apply_coupon_discount" />
         <item itemvalue="Python tests.Python tests in test_order.py" />
         <item itemvalue="Python tests.Python tests for allure_test.test_order_pizza" />
         <item itemvalue="Python.playwright_pizza" />
         <item itemvalue="Python tests.Python tests in PyTestPizza.py" />
-        <item itemvalue="Python tests.Python tests for PyTestPizza.test_add_pizza_to_cart" />
       </list>
     </recent_temporary>
   </component>
